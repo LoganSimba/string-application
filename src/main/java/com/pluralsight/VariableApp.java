@@ -24,8 +24,11 @@ public class VariableApp {
         char favoriteLetter = 'L';
         boolean is_raining = false;
 
-
-
+        //print all variables in complete sentence
+        System.out.println("There are " + daysInWeek + " days in a week");
+        System.out.println("The coffe price at dunkin is " + coffeePrice + "$");
+        System.out.println("My favorite letter is " + favoriteLetter);
+        System.out.println("Does it rain a lot in the summer? " + is_raining);
 
     }
 }
