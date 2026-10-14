@@ -8,6 +8,7 @@ public class Receipt {
         int quantity = 4;
 
         //Print sentence with the variables
-        System.out.println("You bought " + quantity + " " + item + " for $" + itemPrice);
+        System.out.printf("You bought %d %s for $%.2f", quantity , item , itemPrice * quantity);
+
     }
 }
