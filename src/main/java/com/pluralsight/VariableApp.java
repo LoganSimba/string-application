@@ -3,12 +3,22 @@ package com.pluralsight;
 public class VariableApp {
     public static void main(String[] args) {
 
-     // initializing and declaring datatypes
+       // initializing and declaring datatypes
         String favoriteColor = "Red";
         int year = 2026;
         String middleInitial = null;
         boolean havePets = false;
         String niceMessage = "You will become great, and you will achieve great things";
+
+        // add declared datatypes in a sentence
+        System.out.println("The answer is " + favoriteColor );
+        System.out.println("The answer is " + year );
+        System.out.println("The answer is " + middleInitial);
+        System.out.println("The answer is " + havePets);
+        System.out.println("The nice message is " + niceMessage);
+
+
+
 
     }
 }
