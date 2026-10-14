@@ -18,6 +18,13 @@ public class VariableApp {
         System.out.println("The nice message is " + niceMessage);
 
 
+        //Step 2
+        int daysInWeek = 7;
+        double coffeePrice = 4.99;
+        char favoriteLetter = 'L';
+        boolean is_raining = false;
+
+
 
 
     }
