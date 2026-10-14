@@ -7,6 +7,7 @@ public class Receipt {
         double itemPrice = 39.99;
         int quantity = 4;
 
-
+        //Print sentence with the variables
+        System.out.println("You bought " + quantity + " " + item + " for $" + itemPrice);
     }
 }
